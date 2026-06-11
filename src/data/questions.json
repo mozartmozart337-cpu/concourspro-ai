@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "concours": "ENSPY",
+    "matiere": "Mathématiques",
+    "chapitre": "Dérivation",
+    "difficulte": "moyen",
+    "question": "Soit f(x) = x² + 3x. Calculer f'(x).",
+    "options": ["2x + 3", "x + 3", "2x", "3x²"],
+    "reponse": "2x + 3"
+  },
+
+  {
+    "id": 2,
+    "concours": "ENSPY",
+    "matiere": "Physique",
+    "chapitre": "Cinématique",
+    "difficulte": "facile",
+    "question": "Quelle est l'unité de la vitesse ?",
+    "options": ["m/s", "kg", "N", "J"],
+    "reponse": "m/s"
+  },
+
+  {
+    "id": 3,
+    "concours": "ENAM",
+    "matiere": "Culture Générale",
+    "chapitre": "Institutions camerounaises",
+    "difficulte": "moyen",
+    "question": "Quel est le rôle principal du Président de la République au Cameroun ?",
+    "options": [
+      "Diriger l'exécutif",
+      "Diriger le parlement",
+      "Diriger la justice",
+      "Diriger les communes"
+    ],
+    "reponse": "Diriger l'exécutif"
+  },
+
+  {
+    "id": 4,
+    "concours": "ISSEA",
+    "matiere": "Mathématiques",
+    "chapitre": "Probabilités",
+    "difficulte": "difficile",
+    "question": "Si P(A)=0.5 et P(B)=0.3 indépendants, calculer P(A∩B).",
+    "options": ["0.8", "0.15", "0.2", "0.05"],
+    "reponse": "0.15"
+  },
+
+  {
+    "id": 5,
+    "concours": "ENSPY",
+    "matiere": "Informatique",
+    "chapitre": "Algorithmique",
+    "difficulte": "facile",
+    "question": "Que fait une boucle 'for' ?",
+    "options": [
+      "Répéter une action",
+      "Afficher un texte",
+      "Créer une variable",
+      "Supprimer un fichier"
+    ],
+    "reponse": "Répéter une action"
+  }
+]
