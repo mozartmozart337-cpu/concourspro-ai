@@ -12,12 +12,13 @@ app.use("/api/dashboard", require("./src/routes/dashboard"));
 app.get("/", (req, res) => {
   res.json({
     app: "ConcoursPro AI",
-    status: "FINAL VERSION 🚀"
+    status: "online"
   });
 });
 
+// IMPORTANT RENDER PORT
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log("Serveur en ligne sur port " + PORT);
+  console.log("Server running on port " + PORT);
 });
