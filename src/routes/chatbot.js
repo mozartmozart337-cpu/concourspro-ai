@@ -1,8 +1,13 @@
 const express = require("express");
 const router = express.Router();
 
-const chatbotController = require("../controllers/chatbotController");
+// SIMPLE IA RESPONSE (version test)
+router.post("/", (req, res) => {
+  const message = req.body.message;
 
-router.post("/", chatbotController.chat);
+  res.json({
+    reply: "Tu as envoyé : " + message
+  });
+});
 
 module.exports = router;
